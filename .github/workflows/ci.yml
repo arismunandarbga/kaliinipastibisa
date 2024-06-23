@@ -10,7 +10,9 @@ jobs:
         name: cyberacademy test 1
         runs-on: ubuntu-latest
         steps:
-        
+         - name: check out the repo
+           uses: actions/checkout@v2
+           
          - name: perintah linux
            run: 
             ls -lah
