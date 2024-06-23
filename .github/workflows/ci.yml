@@ -6,14 +6,14 @@ on:
         - main
 
 jobs:
-    test:
+    namamacemmacem:
         name: cyberacademy test 1
         runs-on: ubuntu-latest
         steps:
-            - name: check out the repo
-              uses: action/checkout@v2
-            - name: perintah linux
-              run: 
+         - name: check out the repo
+           uses: action/checkout@v2
+         - name: perintah linux
+           run: 
                 id
                 ls lah
                 echo "Aris is here"
