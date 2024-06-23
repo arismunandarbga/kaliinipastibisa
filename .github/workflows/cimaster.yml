@@ -1,0 +1,22 @@
+name: Cyberacademy CI/CD on master
+
+on:
+    push:
+      branches:
+        - main
+
+jobs:
+    namamacemmacem:
+        name: cyberacademy deploying to master
+        runs-on: ubuntu-latest
+        steps:
+         - name: check out the repo
+           uses: actions/checkout@v2
+           
+         - name: perintah linux
+           run: |
+            git status
+            ls -lah
+            id
+            echo "aris deploying something here"
+            
