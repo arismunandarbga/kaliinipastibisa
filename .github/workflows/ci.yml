@@ -16,5 +16,4 @@ jobs:
          - name: perintah linux
            run: 
             ls -lah
-            id
-            echo "Aris is here"
+            
