@@ -1,0 +1,19 @@
+name: Cyberacademy test CI
+
+on:
+    pull_request:
+      branches:
+        - master
+
+jobs:
+    test:
+        name: push Docker image to Docker hub
+        runs-on: ubuntu-latest
+        steps:
+            - name: check out the repo
+              uses: action/checkout@v2
+            - name: perintah linux
+              run: 
+                id
+                ls lah
+                echo "Aris is here"
